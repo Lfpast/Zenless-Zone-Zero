@@ -1,0 +1,7 @@
+public_cases/
+src/*.o
+src/*.d
+tests/*.o
+tests/*.d
+game.exe
+game_test.exe
