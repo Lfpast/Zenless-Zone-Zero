@@ -1,7 +1,6 @@
 #include "hollow.h"
 using namespace std; 
 
-// ==== Complete your tasks after this line ====
 Hollow::Hollow(int levels, int height, int width): levels(levels), height(height), width(width)
 {
     grid = new BlockEntity***[levels];

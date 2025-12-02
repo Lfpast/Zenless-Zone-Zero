@@ -1,15 +1,14 @@
 #include "blockEntity.h"
 #include "hollow.h"
 
-// ==== Complete your tasks after this line ====
-void Switch::onStep(MovableEntity* mentity) //Should I edit mentity attribute here?
+void Switch::onStep(MovableEntity* mentity) 
 {
     isOn = true;
     for (int i = 0; i < doorNum; ++i)
         lockDoors[i]->updateDoor();
 }
 
-void Button::onLeave(MovableEntity* mentity) //Should I edit mentity attribute here?
+void Button::onLeave(MovableEntity* mentity) 
 {
     isOn = false;
     for (int i = 0; i < doorNum; ++i)

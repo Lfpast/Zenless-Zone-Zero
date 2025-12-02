@@ -1,7 +1,6 @@
 #include "movableEntity.h"
 #include "hollow.h"
 
-// ==== Complete your tasks after this line ====
 bool MovableEntity::update(MovableEntity* fromEntity, Direction toDir)
 {
     Location tempLoc(loc.addDir(toDir));
